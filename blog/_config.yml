@@ -88,3 +88,15 @@ algolia:
   adminApiKey: '0acd9c1212654d720081d75bed96a0da'
   indexName: 'blog_NAME'
   chunkSize: 5000
+
+#文章数量
+index_generator:
+  per_page: 5
+
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
