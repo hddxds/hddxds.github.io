@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: http://ojbarxpzm.bkt.clouddn.com/image/head-pic/webwxgetmsgimg.jpg
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
