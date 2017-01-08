@@ -315,10 +315,10 @@ add_this_id: ra-5871e9f6688c3577
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  admin_nickname: hddxds
+ ua_enable: true
+ admin_enable: false
+ user_id: 0
+ admin_nickname: hddxds
 
 
 # Facebook SDK Support.
