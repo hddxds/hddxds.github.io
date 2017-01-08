@@ -78,7 +78,8 @@ deploy:
 #Duoshuo
 ##评论插件
 duoshuo_shortname: hddxds
-duoshuo_share: true
+#duoshuo_share: true
+jiathis: true
 
 #Algolia
 ##搜索插件
