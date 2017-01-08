@@ -30,7 +30,7 @@ Hexo 是一个简单地、轻量地、基于Node的一个静态博客框架，�
 > **[hexo你的博客 —— ibruce](http://ibruce.info/2013/11/22/hexo-your-blog/)**
 
 ## 将博客部署到github
-在很久之前，我们通过***[廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)***大牛的网站学习git的基本操作。但是结合github后我始终不太理解github多人协作的流程，于是我通过***[一个慕课网的视频教程](http://www.imooc.com/learn/390)***彻底理解了github结合本地的操作并且理解了github for windows的一些操作(我有些强迫症，虽然会使用命令行，但是老觉得既然有个客户端，那么就一定要用客户端测试一遍同样的功能)。
+在很久之前，我们通过***[廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)***的网站学习git的基本操作。但是结合github后我始终不太理解github多人协作的流程，于是我通过***[一个慕课网的视频教程](http://www.imooc.com/learn/390)***彻底理解了github结合本地的操作并且理解了github for windows的一些操作(我有些强迫症，虽然会使用命令行，但是老觉得既然有个客户端，那么就一定要用客户端测试一遍同样的功能)。
 
 ### 备份hexo到github远程仓库
 在我通过上边的一系列教程将我的博客部署到github上了以后，我发现hexo不像jekyll一样，每次将本地的文件直接传到github上边，没有备份之忧。hexo是直接通过`$ hexo generate -deploy`命令直接将编译好的文件同步到github的远程仓库的目标分支上，所以当我们更换电脑或者丢失文件之后，直接将github相应仓库的项目clone到电脑上并不是完整的hexo文件。在查找资料后，我找到了一个可靠的文章。
