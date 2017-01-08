@@ -78,11 +78,11 @@ deploy:
 #Duoshuo
 ##评论插件
 duoshuo_shortname: hddxds
-#duoshuo_share: true
+duoshuo_share: true
 # Share
-jiathis: true
+#jiathis: true
 # Warning: JiaThis does nvot support https.
-add_this_id: ra-5871e9f6688c3577
+#add_this_id: ra-5871e9f6688c3577
 
 #Algolia
 ##搜索插件
