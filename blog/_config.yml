@@ -4,11 +4,14 @@
 
 # Site
 title: hddxds
-subtitle: Red Go Marching On
+subtitle: The Red Devils Go Marching On
 description: Glory Glory Man United
 author: Shawn Dong
-language:
+language: zh-Hans
 timezone:
+
+#头像
+avatar: http://ojbarxpzm.bkt.clouddn.com/image/head-pic/webwxgetmsgimg.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +66,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,3 +74,6 @@ deploy:
   type: git
   repository: https://github.com/hddxds/hddxds.github.io.git
   branch: master
+
+#Duoshuo
+duoshuo_shortname: hddxds

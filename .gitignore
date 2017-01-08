@@ -1,2 +1,3 @@
-./blog/deploy*
-./blog/public
+./blog/deploy*/
+./blog/public/
+./blog/node_modules/
