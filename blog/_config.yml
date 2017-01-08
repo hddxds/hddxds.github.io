@@ -76,4 +76,15 @@ deploy:
   branch: master
 
 #Duoshuo
+##评论插件
 duoshuo_shortname: hddxds
+duoshuo_share: true
+
+#Algolia
+##搜索插件
+algolia:
+  applicationID: '3J33M3UGWB'
+  apiKey: '8f8f6921038937f8458bd9e2b0c5c974'
+  adminApiKey: '0acd9c1212654d720081d75bed96a0da'
+  indexName: 'blog_NAME'
+  chunkSize: 5000

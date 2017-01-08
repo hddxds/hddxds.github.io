@@ -209,7 +209,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: false
-  length: 150
+  length: 300
 
 # Post meta display settings
 post_meta:
@@ -245,7 +245,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -254,8 +254,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
@@ -290,11 +290,11 @@ duoshuo_shortname: hddxds
 
 # Share
 #jiathis:
-# Warning: JiaThis does not support https.
-#add_this_id:
+# Warning: JiaThis does nvot support https.
+add_this_id: ra-5871e9f6688c3577
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -392,7 +392,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: ture
   hits:
     per_page: 10
   labels:
