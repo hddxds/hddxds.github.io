@@ -289,12 +289,12 @@ duoshuo_shortname: hddxds
 ##  type: button
 
 # Share
-jiathis: true
+#jiathis: true
 # Warning: JiaThis does nvot support https.
-add_this_id: ra-5871e9f6688c3577
+#add_this_id: ra-5871e9f6688c3577
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
